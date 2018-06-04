@@ -25,6 +25,7 @@ group :development, :test do
   gem 'poltergeist'
   gem 'database_cleaner'  
   gem 'phantomjs', :require => 'phantomjs/poltergeist'
+  gem 'faker'
 end
 
 group :development do
