@@ -6,14 +6,26 @@ class PostsController < ApplicationController
 
   def hobby
     posts_for_branch(params[:action])
+    respond_to do |format|
+      format.html
+      format.js { render partial: 'posts/posts_pagination_page' }
+    end
   end
 
   def study
-    posts_for_branch(params[:action])
+    posts_for_branch(params[:action]) 
+    respond_to do |format|
+      format.html
+      format.js { render partial: 'posts/posts_pagination_page' }
+    end
   end
 
   def team
     posts_for_branch(params[:action])
+    respond_to do |format|
+      format.html
+      format.js { render partial: 'posts/posts_pagination_page' }
+    end  
   end
 
   private
