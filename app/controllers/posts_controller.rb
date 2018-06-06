@@ -15,8 +15,8 @@ class PostsController < ApplicationController
   def study
     posts_for_branch(params[:action]) 
     respond_to do |format|
-      format.html
-      format.js { render partial: 'posts/posts_pagination_page' }
+       format.html
+       format.js { render partial: 'posts/posts_pagination_page' }
     end
   end
 
