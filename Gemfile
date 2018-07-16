@@ -17,7 +17,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'bootstrap_form'
 gem 'will_paginate', '~> 3.1.0'
-
+gem 'gon'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

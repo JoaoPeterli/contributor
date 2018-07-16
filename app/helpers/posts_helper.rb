@@ -66,5 +66,4 @@ module PostsHelper
        'posts/show/contact_user/message_form'
      end
    end
-
  end

@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :private_conversation, class: 'Private::Conversation' do
     association :recipient, factory: :user
     association :sender, factory: :user
