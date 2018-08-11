@@ -24,9 +24,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.6'
   gem 'factory_bot_rails'
   gem 'rails-controller-testing'
-  gem 'poltergeist'
   gem 'database_cleaner'  
-  gem 'phantomjs', :require => 'phantomjs/poltergeist'
   gem 'faker'
 end
 
